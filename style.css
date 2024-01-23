@@ -1,0 +1,52 @@
+body{
+    padding: 25px 10px;
+}
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 1.3rem;
+    border-radius: 10px;
+    background-color: red;
+}
+figure{
+    width: 93%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2% 2% 0% 2%;
+    background-color: white;
+}
+img{
+    width: 90%;
+    max-width: 70rem;
+}
+figcaption{
+    margin: 1.5% 0%;
+}
+p span{
+    font-size: 1.5rem;
+}
+ul{
+    margin-bottom: 0px;
+}
+ul li{
+    margin: 1.5rem;
+    line-height: 2rem;
+}
+ul,blockquote{
+    max-width: 600px;
+}
+blockquote{
+    margin-top: 0px;
+}
+#pDernier,span{
+    font-weight: bolder;
+}
+#pDernier{
+    font-size: 1.5rem;
+    margin-bottom: 3rem;
+}
+figcaption,#pDernier{
+    text-align: center;
+}
